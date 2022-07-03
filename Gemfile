@@ -55,6 +55,11 @@ end
 
 group :development do
   gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+  gem "capistrano"
+  gem "capistrano-puma"
+  gem "capistrano-rails"
+  gem "capistrano-bundler"
+  gem "capistrano-rvm"
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
